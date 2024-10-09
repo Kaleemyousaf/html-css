@@ -1,0 +1,53 @@
+/* Custom styles for the site */
+.hero-section {
+    background-image: url(../img/set-pecan-pistachios-almond-peanut-cashew-pine-nuts-lined-up-assorted-nuts-dried-fruits-mini-different-bowls.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 0%;
+    color: white;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.btn-custom:hover {
+    background-color: green;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+h2 {
+    padding-bottom: 30px;
+}
+
+.icon-box i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #28a745;
+}
+
+.btn-slide {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Carousel controls styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #28a745;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="css/custom.css" rel="stylesheet"> 
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar bg-success text-white py-1">
+        <div class="container d-flex justify-content-between">
+            <div>
+                <i class="fas fa-truck"></i> Free Delivery | Return Policy
+            </div>
+            <div>
+                <a href="#" class="text-white">Login</a> | 
+                <a href="#" class="text-white">Follow Us</a> 
+                <i class="fab fa-facebook"></i> 
+                <i class="fab fa-twitter"></i> 
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header bg-light">
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <div class="site-name">
+                <span style="color: black;">DRY</span><span style="color: #28a745; font-weight: bold;">FOOD</span>
+            </div>
+            <div class="search-bar w-50">
+                <div class="input-group">
+                    <select class="form-select">
+                        <option>All Category</option>
+                        <option > almond</option>
+                        <option > kishmish</option>
+                        <option > kajure</option>
+
+                        
+                    </select>
+                    <input type="text" class="form-control" placeholder="Find your products">
+                    <button class="btn btn-success" type="button">Search</button>
+                </div>
+            </div>
+            <div class="cart-login d-flex">
+                <a href="#" class="text-dark me-4">Cart <i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="text-dark">Login <i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Our Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero-section d-flex align-items-center justify-content-center" >
+        <div class="text-center text-white">
+            <h1>GET BEST DRY FOOD</h1>
+            <a href="#" class="btn btn-light">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Food Products Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Food <span style="color: #28a745;">Products</span></h2>
+        <div id="foodCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First item -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/kajure.png" class="card-img-top" alt="Khejur">
+                                <div class="card-body text-center">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title">Khejur</h5>
+                                        <p class="card-text">Price $150</p>
+                                    </div>
+                                    <p class="card-text">Boosts mood, burns calories, strengthens heart.</p>
+                                    <a href="#" class="btn btn-outline-success">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/kishmish.png" class="card-img-top" alt="Kismis">
+                                <div class="card-body text-center">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title">Kismis</h5>
+                                        <p class="card-text">Price $120</p>
+                                    </div>
+                                    <p class="card-text">Boosts mood, burns calories, strengthens heart.</p>
+                                    <a href="#" class="btn btn-outline-success">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/kaju.png" class="card-img-top" alt="Kaju">
+                                <div class="card-body text-center">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title">Kaju</h5>
+                                        <p class="card-text">Price $130</p>
+                                    </div>
+                                    <p class="card-text">Boosts mood, burns calories, strengthens heart.</p>
+                                    <a href="#" class="btn btn-outline-success">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/almond.png" class="card-img-top" alt="Almond">
+                                <div class="card-body text-center">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title">Almond</h5>
+                                        <p class="card-text">Price $200</p>
+                                    </div>
+                                    <p class="card-text">Boosts mood, burns calories, strengthens heart.</p>
+                                    <a href="#" class="btn btn-outline-success">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Why Choose Our Food Section -->
+    <h2 class="text-center">Why Choose <span style="color: #28a745;">Our Food</span></h2>
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row mt-4 text-center">
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <i class="fas fa-truck"></i>
+                        <h4>Free Delivery</h4>
+                        <p> Delivering excellence through timely service, quality products, and customer satisfaction. </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                        <h4>Dryfood</h4>
+                        <p> Delivering excellence through timely service, quality products, and customer satisfaction.</p>
+                        <a href="#" class="btn btn-outline-success btn-slide">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <i class="fas fa-award"></i>
+                        <h4>High Quality</h4>
+                        <p>Delivering excellence through timely service, quality products, and customer satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 DryFood. All Rights Reserved.</p>
+            <div>
+                <a href="#" class="text-white">Privacy Policy</a> | 
+                <a href="#" class="text-white">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
